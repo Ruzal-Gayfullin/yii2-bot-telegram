@@ -62,7 +62,7 @@ class TelegramBase extends Component
      * @return Input
      * @noinspection PhpUnused
      */
-    protected function getInput(): ?Input
+    protected function getInput()
     {
         if (empty($this->_input)) {
             $input = file_get_contents('php://input');
