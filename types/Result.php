@@ -95,7 +95,7 @@ class Result extends Type
    /**
     * 
     */
-   public function setFrom($value): void
+   public function setFrom($value)
    {
       $this->_from = new From($value);
    }
@@ -111,7 +111,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setChat($value): void
+    public function setChat($value)
     {
        $this->_chat = new Chat($value);
     }
@@ -127,7 +127,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setAudio($value): void
+    public function setAudio($value)
     {
        $this->_audio = new Audio($value);
     }
@@ -143,7 +143,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setPhoto($value): void
+    public function setPhoto($value)
     {
        $this->_photo = new Photo($value);
     }
@@ -159,7 +159,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setDocument($value): void
+    public function setDocument($value)
     {
        $this->_document = new Document($value);
     }
@@ -175,7 +175,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setVideo($value): void
+    public function setVideo($value)
     {
        $this->_video = new Video($value);
     }
@@ -191,7 +191,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setAnimation($value): void
+    public function setAnimation($value)
     {
        $this->_animation = new Animation($value);
     }
@@ -207,7 +207,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setVoice($value): void
+    public function setVoice($value)
     {
          $this->_voice = new Voice($value);
     }
@@ -223,7 +223,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setVideoNote($value): void
+    public function setVideoNote($value)
     {
          $this->_video_note = new VideoNote($value);
     }
@@ -239,7 +239,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setForward_from($value): void
+    public function setForward_from($value)
     {
          $this->_forward_from = new ForwardFrom($value);
     }
@@ -256,7 +256,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setEntities($value): void
+    public function setEntities($value)
     {
          $this->_entities = new Entities($value);
     }
@@ -273,7 +273,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setSticker($value): void
+    public function setSticker($value)
     {
          $this->_sticker = new Sticker($value);
     }
@@ -289,7 +289,7 @@ class Result extends Type
     /**
      * 
      */
-    public function setReply_markup($value): void
+    public function setReply_markup($value)
     {
          $this->_reply_markup = new InlineKeyboardMarkup($value);
     }
