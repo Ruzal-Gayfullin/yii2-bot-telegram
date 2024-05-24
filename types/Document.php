@@ -17,6 +17,8 @@ class Document extends Type
 
     public $file_name;
 
+    public $thumbnail = null;
+
     public $mime_type;
 
     public $file_size;
